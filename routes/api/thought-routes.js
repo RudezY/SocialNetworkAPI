@@ -15,7 +15,7 @@ router.post("/", (req, res) => {
       thoughtText: req.body.thoughtText,
       createdAt: req.body.createdAt,
       username: req.body.username,
-      reactions: req.body.reactions,
+      // reactions: req.body.reactions,
     },
     (err, thought) => {
       if (err) {
